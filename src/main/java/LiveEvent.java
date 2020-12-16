@@ -1,4 +1,3 @@
-import java.math.BigInteger;
 
 class OutCome {
     private long id;
