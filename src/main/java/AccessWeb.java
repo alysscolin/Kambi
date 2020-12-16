@@ -72,7 +72,7 @@ public class AccessWeb {
         JSONParser parse = new JSONParser();
         //Type caste the parsed json data in json object
         JSONObject jobj = (JSONObject)parse.parse(oddStr);
-        //Store the JSON object in JSON array as objects (For level 1 array element i.e Results)
+        //Store the JSON object in JSON array as objects
         JSONArray jsonarr = (JSONArray) jobj.get("liveEvents");
         ArrayList<LiveEvent> list = new ArrayList<>();
 
