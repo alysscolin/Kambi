@@ -27,7 +27,7 @@ public class AccessWeb {
         } catch (IOException ioException) {
             ioException.printStackTrace();
         }
-        //Set the request to GET or POST as per the requirements
+        //Set the request to GET as per the requirements
         try {
             conn.setRequestMethod("GET");
         } catch (ProtocolException protocolException) {
